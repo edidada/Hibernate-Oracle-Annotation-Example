@@ -20,6 +20,9 @@ public class App {
 
 		session.save(user);
 		session.getTransaction().commit();
+
+
+
 		session.close();
 	}
 }
